@@ -16,7 +16,7 @@ public class Test01 {
 	@Test
 	public void test02(){
 		ClassPathXmlApplicationContext ac=new ClassPathXmlApplicationContext("applicationContext.xml");
-		User user=(User) ac.getBean("user");
+		User user=(User) ac.getBean("hahaahah");
 		Person p=user.getPerson();
 		System.out.println(p.getName());
 	}
